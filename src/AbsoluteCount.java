@@ -1,6 +1,7 @@
 import java.util.HashMap;
 
-
+//this project prints the count of absolute values
+//example: for array {-1,0,1,2,-2} the count will be 3
 public class AbsoluteCount {
 	
 	public static void main(String[] args)
@@ -9,6 +10,7 @@ public class AbsoluteCount {
 		System.out.println(solution(new int[]{-5, -3, -1, -5, -3, -1, 0, 3, 6}));
 		System.out.println(solution(new int[]{2,3,4,2,2,2}));
 		System.out.println(solution(new int[]{2,3,4,-2,-3,2}));
+		System.out.println(solution(new int[]{-1,0,1,2,-2}));
 	}
 	
 	public static int solution(int[] A) {
